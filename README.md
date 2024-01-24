@@ -160,7 +160,7 @@ function inputoff()
 ```
 
 ```javascript
-alert("Вы навели мышкой на кнопку!");
+alert("Вы навели мышкой!");
 ```
 
 10. 
@@ -169,7 +169,7 @@ alert("Вы навели мышкой на кнопку!");
 ```
 
 ```javascript
-alert("Вы дважды нажали на кнопку!");
+alert("Дважды щелкнули!");
 ```
 
 11. 
@@ -177,14 +177,14 @@ alert("Вы дважды нажали на кнопку!");
 <div onmouseenter="func11()"></div>
 ```
 ```javascript
-alert("Вы навели мышкой на элемент div!");
+alert("Вы навели мышкой на div!");
 ```
 
 12. 
 ```javascript
 var element = document.getElementById("image");
 if(element.getAttribute('src') == "cat.jpg")
-    element.setAttribute('src','crab.jpg');
+    element.setAttribute('src','cat2.jfif');
 else 
     element.setAttribute('src','cat.jpg');
 ```
