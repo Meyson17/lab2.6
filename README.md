@@ -379,10 +379,10 @@ const app = express();
 
 hbs.registerPartials(__dirname + "/views/partials");
 
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/main"));
 
 app.get("/", function(request, response) {
-    response.sendFile("public/index.html");
+    response.sendFile("main/index.html");
 });
 
 app.get("/about_me", function(req, resp){
